@@ -143,6 +143,9 @@ class App():
                     local_grid[i][q] = 2
                     if self.check(local_grid) != 0 and self.valid_move((i,q)):
                         return i,q
+            for i in range(3):
+                for q in range(3):
+                    local_grid = copy.deepcopy(global_grid)
                     local_grid[i][q] = 1
                     if self.check(local_grid) != 0 and self.valid_move((i,q)):
                         return i,q

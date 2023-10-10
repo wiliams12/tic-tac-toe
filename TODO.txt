@@ -1,2 +1,3 @@
 Improve decision making: -prefers to block instead of winning
 Improve displaying: Doesn't display the last state before win
+Add comments
